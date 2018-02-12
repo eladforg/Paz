@@ -32,7 +32,7 @@ body{
 header{
     position: relative;
     background-color: rgb(144, 144, 144);
-    height: 50px;
+    height: 70px;
 }
 
 .enlarger{
@@ -58,7 +58,9 @@ header>div{
 }
 
 nav{
-
+    background-color: rgb(144, 144, 144);
+    text-align: center;
+    
 }
 
 nav>ul{
@@ -67,12 +69,50 @@ nav>ul{
 
 nav>ul>li{
     display: inline;
+    
 }
 
 nav>ul>li>a{
+    display:inline-block;
     text-decoration: none;
+    padding:10px;
+    color:white;
+    border-right:1px rgb(170, 170, 170) solid;
+    font-weight: bold;
 }
 
-nav>ul>li:hover{
-
+nav>ul>li:hover >a{
+    color:blue;
 }
+
+/*submenu*/
+.open-submenu{
+    position: relative;
+}
+nav>ul>li:hover .drop-down{
+    
+    display: block;
+    list-style: none;
+}
+.drop-down{
+    position: absolute;
+    top:28px;
+    right:0px;
+    background-color: rgb(144, 144, 144);
+    display:none;
+    width:150px;
+    text-align: right;
+    
+}
+.drop-down>li>a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding:5px;
+    font-weight: bold;
+}
+.drop-down>li:hover a{
+    color:blue;
+}
+/*end of submenu*/
+
