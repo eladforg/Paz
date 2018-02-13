@@ -102,6 +102,7 @@ nav>ul>li:hover .drop-down{
     display:none;
     width:150px;
     text-align: right;
+    z-index: 8;
     
 }
 .drop-down>li>a{
@@ -151,3 +152,56 @@ nav>ul>li:hover .drop-down{
     text-align: left;
     
 }
+
+/*end of images*/
+/*start of bottom*/
+
+.bottom{
+    position: relative;
+}
+.bottom>.background-img{
+    margin-top:20px;
+}
+.bottom>h3{
+    position: absolute;
+    top:35px;
+    right:30px;
+    font-size: 0.9em;
+}
+.bottom>.banner{
+    position: absolute;
+    top:65px;
+    right:25px;
+}
+.bottom>a{
+    position: absolute;
+    top:200px;
+    right:170px;
+    font-size: 0.8em;
+    
+}
+/*map*/
+.bottom>.map{
+    position: absolute;
+    top:60px;
+    right:200px;
+}
+.bottom>.details-link1{
+    position: absolute;
+    top:70px;
+    right:25px;
+    font-size: 0.8em;    
+}
+.bottom>.details-link2{
+    position: absolute;
+    top:95px;
+    right:25px;
+    font-size: 0.8em;    
+}
+.bottom>.details-link3{
+    position: absolute;
+    top:120px;
+    right:25px;
+    font-size: 0.8em;    
+}
+
