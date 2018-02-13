@@ -33,6 +33,7 @@ header{
     position: relative;
     background-color: rgb(144, 144, 144);
     height: 70px;
+    
 }
 
 .enlarger{
@@ -55,6 +56,12 @@ header>div{
     position:absolute;
     top:20px;
     left:550px;
+}
+
+.logo>img{
+    position: absolute;
+    top:35px;
+    right:180px;
 }
 
 nav{
