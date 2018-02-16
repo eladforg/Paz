@@ -141,6 +141,7 @@ nav>ul>li:hover .drop-down{
 }
 /*end of submenu*/
 /*start of main body*/
+
 /*col-right*/
 
 .col-right>nav{
@@ -150,7 +151,7 @@ nav>ul>li:hover .drop-down{
     list-style: none;
 }
 .col-right>nav>ul>li{
-    background-color:rgb(202, 199, 199);
+    background-color:rgb(219, 217, 217);
     border-radius: 10%;
 }
 .col-right>nav>ul>li>a{
@@ -164,13 +165,60 @@ nav>ul>li:hover .drop-down{
 
 /*col-middle*/
 .h3-underline{
+    margin-right: 20px;
     border-bottom: 2px solid gray;
 }
 
-.contact-input-body{
+.contact-input-background{
+    margin-top:20px;
+    width:400px;
     background-image: url("images/images/contact_form_bg.png");
+    background-repeat: no-repeat;
 }
 
+.contact-text{
+    margin-right:40px;
+    padding-top:20px;
+}
+
+.contact-text>h4{
+    color:blue;
+}
+
+.contact-text>h5{
+    margin-top:7px;
+}
+.contact-text>p{
+    margin-top:7px;
+    font-size: 0.8em;
+}
+
+.contact-text>form{
+    width:270px;
+    margin-top:7px;
+    margin-right:50px;
+    font-size: 0.8em;
+}
+form::after , .divided-cat::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.contact-text>form label{
+    float:right;
+}
+.contact-text>form input , .confirm-but{
+   float: left;
+}
+.divided-cat{
+    margin-bottom:5px;
+}
+.confirm-but{
+    padding-right:7px;
+    padding-left:7px;
+    background-color: rgb(112, 112, 247);
+    color: white;
+}
 
 
 
