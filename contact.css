@@ -16,6 +16,7 @@ body{
     width:900px;
     margin:auto;
     margin-top:30px;
+    margin-bottom:100px;
 }
 
 .row::after{
@@ -259,10 +260,19 @@ nav>ul>li:hover .drop-down{
 
 /*footer*/
 footer{
+    position: fixed;
+    bottom:0;
+    width:100%;
     margin-top:15px;
+    background-color: gray;
 }
 footer>nav>ul>li>.footer-links{
     border-right:1px rgba(255, 255, 255, 0.959) solid;
     font-size: 0.8em;
 }
 
+footer .mccan-logo{
+    position: relative;
+    top:4px;
+    left:-20px;
+}
