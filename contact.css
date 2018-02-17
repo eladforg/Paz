@@ -31,13 +31,14 @@ body{
 
 .col-middle{
     float:right;
-    width:50%;
-    margin:30px;
+    width:45%;
+    margin:10px;
 }
 
 .col-left{
     float:right;
-    width:35%;
+    width:30%;
+    margin-top:50px;
 }
 
 header{
@@ -199,7 +200,7 @@ nav>ul>li:hover .drop-down{
     margin-right:50px;
     font-size: 0.8em;
 }
-form::after , .divided-cat::after{
+.divided-cat::after{
     content: "";
     clear: both;
     display: table;
@@ -219,6 +220,40 @@ form::after , .divided-cat::after{
     background-color: rgb(112, 112, 247);
     color: white;
 }
+
+/*col-left*/
+/*top*/
+.left-background{
+    background-image: url("images/images/cube_bg.png");
+    width:290px;
+}
+.left-text{
+    margin-right:20px;
+    padding-top:18px;
+    line-height: 1.3em;
+    padding-bottom: 20px;
+    
+}
+.left-text>h5{
+    color: blue;
+    
+}
+.left-text>p{
+    font-size: 0.8em;
+    
+}
+
+
+/*bottom*/
+.col-left>.bottom{
+    margin-top:19px;
+}
+
+.col-left>.bottom p{
+    line-height: 1.2em;
+    margin-top: 5px;
+}
+
 
 
 
