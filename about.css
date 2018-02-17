@@ -146,16 +146,18 @@ nav>ul>li:hover .drop-down{
 
 /*col-right*/
 
-.col-right>nav{
-    
-}
 .col-right>nav>ul{
     list-style: none;
 }
 .col-right>nav>ul>li{
     background-color:rgb(219, 217, 217);
     border-radius: 10%;
+    margin-bottom:3px;
 }
+.col-right>nav>ul>.aboutus{
+    background-color: gray;
+}
+
 .col-right>nav>ul>li>a{
     display: block;
     padding:10px;
@@ -170,7 +172,16 @@ nav>ul>li:hover .drop-down{
     margin-right: 20px;
     border-bottom: 2px solid gray;
 }
-
+.about-text img{
+    width:380px;
+    margin-top:10px;
+    margin-right:20px;
+}
+.col-middle>video{
+    margin-right:40px;
+    margin-top:20px;
+    
+}
 
 
 /*col-left*/
@@ -186,12 +197,25 @@ nav>ul>li:hover .drop-down{
     padding-bottom: 20px;
     
 }
-.left-text>h5{
+.left-text>h4{
     color: blue;
+    
+}
+.left-text>h5{
+    color: rgb(21, 21, 245);
+    margin-top:5px;
+    
     
 }
 .left-text>p{
     font-size: 0.8em;
+    line-height: 1em;
+    margin-bottom:5px;
+    
+}
+.left-text>a{
+    font-size: 0.8em;
+    width:250px;
     
 }
 
